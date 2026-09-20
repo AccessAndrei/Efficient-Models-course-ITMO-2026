@@ -2,6 +2,9 @@
 
 **Issued:** 19.09.2026 · **Due:** 26.09.2026 · **Points:** 5
 
+## Submission link:
+https://forms.gle/itnp6pXrZi5TsD5H6
+
 ---
 
 ## 1. Goal
