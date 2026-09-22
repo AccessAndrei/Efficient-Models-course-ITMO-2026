@@ -31,7 +31,7 @@ A local NVIDIA GPU with 16 GB or less is fine too.
 Choose the  model below. All are sequential — no residual connections — and are built only from convolution, BatchNorm, ReLU, pooling and linear layers. All run in `eval()` mode, FP32. Every convolution uses `padding = k // 2` and `bias=False`; every ReLU is `inplace=True`; input is `3 × S × S`; 100 output classes. After each convolution layer we use ReLU.
 
 
-**Model ** 
+**Model** 
 | Layers | Output resolution |
 |--------|-------------------|
 | Conv7×7 s2 3→32, MaxPool 3×3 s2 p1 | S/4 |
