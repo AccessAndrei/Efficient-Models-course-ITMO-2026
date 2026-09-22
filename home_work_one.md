@@ -28,7 +28,7 @@ A local NVIDIA GPU with 16 GB or less is fine too.
 
 ## 3. Models
 
-Choose **one** of the three models below (your choice, or assigned by the instructors). All are sequential — no residual connections — and are built only from convolution, BatchNorm, ReLU, pooling and linear layers. All run in `eval()` mode, FP32. Every convolution uses `padding = k // 2` and `bias=False`; every ReLU is `inplace=True`; input is `3 × S × S`; 100 output classes.
+Choose the  model below. All are sequential — no residual connections — and are built only from convolution, BatchNorm, ReLU, pooling and linear layers. All run in `eval()` mode, FP32. Every convolution uses `padding = k // 2` and `bias=False`; every ReLU is `inplace=True`; input is `3 × S × S`; 100 output classes. After each convolution layer we use ReLU.
 
 
 **Model ** 
@@ -62,7 +62,7 @@ Some of them (large $S$ with large $B$) will not fit into GPU memory — that is
 Catch the `torch.cuda.OutOfMemoryError`, record the configuration as `OOM`, and compare it with what your `Memory` equation predicts.
 
 
-## 5. Part 1 - Derivations on paper (handwritten)
+## 5. Derivations on paper (handwritten)
 
 Derive, for **your** network, the four functions as explicit formulas in $S$ and $B$. For each function:
 
@@ -77,7 +77,7 @@ State your assumptions for latency and energy explicitly (see the conventions be
 - **Energy.** Energy of one forward pass, in joules, measured on the whole GPU.
 
 
-## 6. Part 2 — Code
+## 6. Code
 
 Implement your equations as plain Python functions that take numbers and return numbers:
 
@@ -91,7 +91,7 @@ def energy(image_size, batch, theta_energy): ...   # -> float (joules)
 They must accept NumPy arrays for `image_size` and `batch` (broadcasting), so that plotting a surface over the $(S, B)$ plane is a single call.
 
 
-## 7. Part 3 — Measurement protocol
+## 7. Measurement protocol
 
 Set these flags first and keep them the same in all runs:
 
@@ -103,7 +103,7 @@ model = model.cuda().eval()
 ```
 
 
-## 9. Part 5 — Plots and analysis
+## 8. Plots and analysis
 
 Validate the equations against the real network - plot predicted versus real results as the grid above.
 Every plot shows **measured points and the predicted curve/surface together**, with labelled axes and units.
