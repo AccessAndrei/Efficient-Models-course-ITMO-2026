@@ -122,7 +122,6 @@ hw1/
 ├── calibrate.py             # fitting of theta
 └── results/
     ├── measurements.csv     # S, B, latency, memory or OOM, energy, is_validation
-    ├── kernels.csv          # S, B, layer, kernel name
     ├── theta.json           # fitted parameters
     └── figures/*.png
 ```
