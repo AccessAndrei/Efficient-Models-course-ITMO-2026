@@ -1,0 +1,16 @@
+{
+  "step": 10000,
+  "epoch": 200.0,
+  "lr": 0.10057999999999995,
+  "momentum": 0.9,
+  "train_loss": 0.0005660257720947265,
+  "train_accuracy": 1.0,
+  "test_loss": 0.316764404296875,
+  "test_accuracy": 0.9195,
+  "training_seconds": 756.8703872710012,
+  "evaluation_seconds": 21.37274143100194,
+  "utc": "2026-10-10T14:51:28.905797+00:00",
+  "experiment": "cifar_cycle",
+  "seed": 42,
+  "status": "complete"
+}

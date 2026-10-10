@@ -1,0 +1,13 @@
+.venv/
+data/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+results/**/checkpoint.pt
+
+# Local launch files are excluded from the submission.
+/colab.ipynb
+/colab_bundle.zip
+/COLAB.md
+/presentation.mjs
+/hw2_results.zip

@@ -1,0 +1,16 @@
+{
+  "step": 1407,
+  "epoch": 12.0064,
+  "lr": 9.999999999999593e-06,
+  "momentum": 0.95,
+  "train_loss": 0.007709766746660985,
+  "train_accuracy": 0.9986740252293578,
+  "test_loss": 0.025253555297851563,
+  "test_accuracy": 0.9916,
+  "training_seconds": 1.2919905620001373,
+  "evaluation_seconds": 0.057849960001476575,
+  "utc": "2026-10-10T16:35:40.850120+00:00",
+  "experiment": "mnist_cycle",
+  "seed": 43,
+  "status": "complete"
+}

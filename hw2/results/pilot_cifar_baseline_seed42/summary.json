@@ -1,0 +1,16 @@
+{
+  "step": 200,
+  "epoch": 4.0,
+  "lr": 0.35,
+  "momentum": 0.9,
+  "train_loss": 2.2946325,
+  "train_accuracy": 0.11037,
+  "test_loss": 2.291508984375,
+  "test_accuracy": 0.1087,
+  "training_seconds": 15.647180353999829,
+  "evaluation_seconds": 0.43003391499996724,
+  "utc": "2026-10-10T14:38:19.839041+00:00",
+  "experiment": "cifar_baseline",
+  "seed": 42,
+  "status": "complete"
+}

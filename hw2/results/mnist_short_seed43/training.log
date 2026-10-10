@@ -1,0 +1,13 @@
+2026-10-10 16:35:52,953 mnist_short seed=43 steps=1407 device=cuda
+2026-10-10 16:35:53,305 step 118/1407 test=94.86% loss=0.5374 train_time=0.3s
+2026-10-10 16:35:53,400 step 236/1407 test=96.91% loss=0.1591 train_time=0.4s
+2026-10-10 16:35:53,494 step 354/1407 test=97.53% loss=0.1076 train_time=0.5s
+2026-10-10 16:35:53,588 step 472/1407 test=97.86% loss=0.0827 train_time=0.6s
+2026-10-10 16:35:53,683 step 590/1407 test=98.02% loss=0.0685 train_time=0.7s
+2026-10-10 16:35:53,777 step 708/1407 test=98.19% loss=0.0592 train_time=0.8s
+2026-10-10 16:35:53,871 step 826/1407 test=98.32% loss=0.0530 train_time=0.9s
+2026-10-10 16:35:53,965 step 944/1407 test=98.46% loss=0.0470 train_time=0.9s
+2026-10-10 16:35:54,059 step 1062/1407 test=98.51% loss=0.0427 train_time=1.0s
+2026-10-10 16:35:54,154 step 1180/1407 test=98.59% loss=0.0389 train_time=1.1s
+2026-10-10 16:35:54,248 step 1298/1407 test=98.64% loss=0.0358 train_time=1.2s
+2026-10-10 16:35:54,335 step 1407/1407 test=98.68% loss=0.0334 train_time=1.3s
