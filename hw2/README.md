@@ -1,6 +1,6 @@
 # ДЗ-2: Super-Convergence
 
-Воспроизведены сравнения LeNet/MNIST из таблицы 2 и ResNet-56/CIFAR-10 из рисунка 1a статьи [Smith и Topin](https://arxiv.org/pdf/1708.07120). Для обучения использована GPU NVIDIA RTX PRO 6000 Blackwell Server Edition, 94,97 GiB видеопамяти. Вычисления выполнены в FP32, с PyTorch 2.10.0 и CUDA 12.8.
+Воспроизведены эксперименты с LeNet на MNIST и ResNet-56 на CIFAR-10 из статьи [Smith и Topin](https://arxiv.org/pdf/1708.07120). Для обучения использована GPU NVIDIA RTX PRO 6000 Blackwell Server Edition, 94,97 GiB видеопамяти. Вычисления выполнены в FP32, с PyTorch 2.10.0 и CUDA 12.8.
 
 ## Материалы для сдачи
 
